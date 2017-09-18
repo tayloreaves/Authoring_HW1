@@ -7,7 +7,7 @@
 
       //I want to change all the content on the page
       function changeElements(){
-        debugger; // its like when you pause on Netflix - this is a special term that stops code execution
+        //debugger; // its like when you pause on Netflix - this is a special term that stops code execution
         let subImages = document.querySelector('.subImagesContainer');
         let objectIndex = dynamicContent[this.id];
 
@@ -42,7 +42,8 @@
 
 }
 
-   // theImages.forEach(function(image, index){
+   theImages.forEach(function(image, index){
       //add an event handler to each image
-   // image.addEventListener('click', changeElements, false);
+   image.addEventListener('click', changeElements, false);
+});
     })();
