@@ -24,6 +24,14 @@
           newSubImg.classList.add('thumb');
           //set the source
           newSubImg.src = "images/" +objectIndex.images[index];
+
+          newSubImg.dataset.index = index;
+
+          //add an event handler to trigger the lightbox
+          newSubImg.addEventListener('click', popLightbox, false);
+          //false means its trapping it
+          //
+
           // add it to the page
           subImages.appendChild(newSubImg);
 
@@ -45,10 +53,18 @@
    theImages.forEach(function(image, index){
       //add an event handler to each image
    image.addEventListener('click', changeElements, false);
-});
+  });
 
-//document.querySelector('#spring').click(); =this is one way of doing it
+  //trigger the lightbox
+  function popLightbox() {
+    //debugger;
+    //trigger the lightbox overlay so that we can see it
+    let lightbox = document.querySelector('.lightbox')
 
+    lightbox.style.display = "block";
+  }
+
+    //document.querySelector('#spring').click(); =this is one way of doing it
     changeElements.call(document.querySelector('#spring'));
 
 
