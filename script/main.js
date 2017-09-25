@@ -46,4 +46,10 @@
       //add an event handler to each image
    image.addEventListener('click', changeElements, false);
 });
+
+//document.querySelector('#spring').click(); =this is one way of doing it
+
+    changeElements.call(document.querySelector('#spring'));
+
+
     })();
