@@ -56,3 +56,52 @@ section { margin-top: 15px; background-color: #FFF; }
 .subImagesContainer { padding: 0; }
 
 .thumb { height: 90px; margin: 8px; cursor: pointer; }
+
+.lightbox {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: white;
+	background-color: rgba(0,0,0,0.85);
+
+}
+
+	.close-lightbox {
+		position: absolute;
+		float: right;
+		right: 18px;
+		margin-top: 12px;
+		font-size: 2em;
+		cursor: pointer;
+	}
+
+	.lightbox-img {
+		display: block;
+		max-width: 500px;
+		min-width: 500px;
+		height: auto;
+		margin: auto;
+		padding-bottom: 12px;
+		padding-top: 24px;
+
+	}
+
+	.boxBackground {
+		background-color: white;
+		display: block;
+		max-width: 550px;
+		min-width: 550px;
+		margin: auto;
+		height: auto;
+	}
+
+	.img-desc {
+		margin: auto;
+		font-size: 1.2em;
+		text-align: center;
+		color: black;
+		padding-bottom: 24px;
+	}

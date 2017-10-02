@@ -6,8 +6,20 @@ var dynamicContent = {
 
 			images : [
 				"spring_1.jpg",
-				"spring_2.jpg"
-			]
+				"spring_2.jpg",
+				"spring_3.jpg",
+				"spring_4.jpg",
+				"spring_5.jpg",
+				"spring_6.jpg"
+			],
+			 imageDescription : [
+				 "This is a bunch of butterflies",
+				 "This is a ducky. Or a chick, whatever",
+				 "This is a pretty path with cherry blossoms",
+				 "This is a field of tulips",
+				 "This is a park with fresh grass",
+				 "This is a cute bunny who wants Easter chocolate"
+			 ]
 		},
 
 		summer : {
@@ -17,8 +29,22 @@ var dynamicContent = {
 
 			images : [
 				"summer_1.jpg",
-				"summer_2.jpg"
+				"summer_2.jpg",
+				"summer_3.jpg",
+				"summer_4.jpeg",
+				"summer_5.jpg",
+				"summer_6.jpg"
+			],
+
+			imageDescription : [
+				"This is a bunch of colorful beach chairs",
+				"This is a cute puppy in a hammock on the beach",
+				"This is a girl reading on yet another beach",
+				"This is a pool with a pink floatie",
+				"This is a field a big, pretty sunflowers",
+				"This is a quiet beach with a stripped umbrella"
 			]
+
 		},
 
 		autumn : {
@@ -28,7 +54,20 @@ var dynamicContent = {
 
 			images : [
 				"autumn_1.jpg",
-				"autumn_2.jpg"
+				"autumn_2.jpg",
+				"autumn_3.jpg",
+				"autumn_4.jpg",
+				"autumn_5.jpg",
+				"autumn_6.jpg"
+			],
+
+			imageDescription : [
+				"This is a path with lots of orange leaves",
+				"These are pumpkins and sunflowers",
+				"This is a road in the fall mountains",
+				"This is a mountain behind a body of water",
+				"These are a bunch of really cool pumpkins",
+				"This is a house in the woods"
 			]
 		},
 
@@ -39,7 +78,20 @@ var dynamicContent = {
 
 			images : [
 				"winter_1.jpg",
-				"winter_2.jpg"
+				"winter_2.jpg",
+				"winter_3.jpeg",
+				"winter_4.jpg",
+				"winter_5.jpg",
+				"winter_6.jpg"
+			],
+
+			imageDescription : [
+				"This is a sunrise in the winter woods",
+				"This is the coolest snowman ever",
+				"These are a couple of skiers",
+				"These are a couple of pups enjoying the cold weather",
+				"This is a really cool lit up igloo",
+				"This is a mini snowman that is also cool"
 			]
 		}
 	};
