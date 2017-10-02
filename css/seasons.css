@@ -67,5 +67,41 @@ section { margin-top: 15px; background-color: #FFF; }
 	color: white;
 	background-color: rgba(0,0,0,0.85);
 
-
 }
+
+	.close-lightbox {
+		position: absolute;
+		float: right;
+		right: 18px;
+		margin-top: 12px;
+		font-size: 2em;
+		cursor: pointer;
+	}
+
+	.lightbox-img {
+		display: block;
+		max-width: 500px;
+		min-width: 500px;
+		height: auto;
+		margin: auto;
+		padding-bottom: 12px;
+		padding-top: 24px;
+
+	}
+
+	.boxBackground {
+		background-color: white;
+		display: block;
+		max-width: 550px;
+		min-width: 550px;
+		margin: auto;
+		height: auto;
+	}
+
+	.img-desc {
+		margin: auto;
+		font-size: 1.2em;
+		text-align: center;
+		color: black;
+		padding-bottom: 24px;
+	}
